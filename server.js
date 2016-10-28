@@ -1,3 +1,4 @@
+/*
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
@@ -32,3 +33,26 @@ var port = 8080; // Use 8080 for local development because you might already hav
 app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
+*/
+function ModifyBGColor(id, newColor)
+{
+ var mElement = document.getElementById(id);
+ mElement.style.backgroundColor = newColor;
+}
+function ModifyTextColor(id, newColor)
+{
+ var mElement = document.getElementById(id);
+ mElement.style.color = newColor;
+}
+function ModifyBoxSize(id, newWidth, newHeight)
+{
+ var mElement = document.getElementById(id);
+ mElement.style.width = newWidth;
+ mElement.style.height = newheight;
+}
+function ModifyBoxPosition(id, newLeft, newTop)
+{
+ var mElement = document.getElementById(id);
+ mElement.style.left = newLeft;
+ mElement.style.top = newTop;
+}
